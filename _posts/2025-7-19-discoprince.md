@@ -1,5 +1,5 @@
 ---
-layout: beatmap_page # ИЗМЕНИТЬ НА ЭТО!
+layout: beatmap_page # ЭТО ДОЛЖНО БЫТЬ ИМЕННО ТАК
 title: DISCO PRINCE (Kenji Ninuma)
 download_link: "https://github.com/AAlx0451/osu-ios-store-repo/releases/download/2007/1.Kenji.Ninuma.-.DISCO.PRINCE.osz.zip"
 beatmap_folder_name: discoprince 
@@ -16,4 +16,4 @@ beatmap_folder_name: discoprince
 **Сложность:** Средняя
 **Время:** 3:00
 
-*Примечания: это отличный трек для начала!*
+*Примечания: этот битмап был специально адаптирован для лучшей производительности на старых iOS устройствах.*
