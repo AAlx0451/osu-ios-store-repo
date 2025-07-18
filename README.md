@@ -12,7 +12,7 @@ title: Список Битмапов
 ## Доступные битмапы:
 
 {% for post in site.posts reversed %}
-- **[{{ post.title }}]({{ post.url }})**
+- **[{{ post.title }}]({{ post.url | relative_url }})**
 {% endfor %}
 
 ---
