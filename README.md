@@ -1,21 +1,20 @@
 ---
 layout: default
-title: Bidmabb Lizzt
+title: Список Битмапов
 ---
 
-# Welkam!
+# Добро пожаловать в osu! Legacy Store!
 
-Ripo fore osu! iPhone
-All bitmapzz are checked...
+Это неофициальный архив битмапов, адаптированных для старых версий osu! на Legacy iOS устройствах (iPhone/iPad).
 
+Все битмапы доступны для ручной установки через .zip файл, а также для автоматической установки на джейлбрейкнутые устройства с OpenSSH.
 
-at leazzt, thei shoult bee ;)
-
-
-## Biddmabb Awaillabel:
+## Доступные битмапы:
 
 {% for post in site.posts reversed %}
 - **[{{ post.title }}]({{ post.url }})**
 {% endfor %}
 
 ---
+
+*P.S. Этот сайт создан для фанатов Legacy iOS и osu!*
