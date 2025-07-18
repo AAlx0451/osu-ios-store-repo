@@ -7,8 +7,8 @@ beatmap_folder_name: discoprince
 
 ### Об этом битмапе:
 
-Неплохой битмап
-
 Исполнитель: Kenji Ninuma
+
 Песня: DISCO PRINCE
+
 Сложность: Normal
