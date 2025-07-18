@@ -1,6 +1,21 @@
-# osu-ios-store-repo
-Repo for osu! iPhone
-All beatmaps are checked...
+---
+layout: default
+title: Bidmabb Lizzt
+---
+
+# Welkam!
+
+Ripo fore osu! iPhone
+All bitmapzz are checked...
 
 
-at least, they should be ;)
+at leazzt, thei shoult bee ;)
+
+
+## Biddmabb Awaillabel:
+
+{% for post in site.posts reversed %}
+- **[{{ post.title }}]({{ post.url }})**
+{% endfor %}
+
+---
