@@ -3,4 +3,4 @@ Repo for osu! iPhone
 All beatmaps are checked...
 
 
-maybe
+at least, they should be ;)
