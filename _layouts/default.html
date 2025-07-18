@@ -88,7 +88,13 @@
         <p>{{ site.description }}</p>
     </div>
     <div class="container">
-        {{ content }} {# Это единственное, что остается в базовом шаблоне #}
-    </div>
+        {{ content }}
+    </div> <!-- Конец div.container -->
+
+        <footer class="site-footer">
+            <p>© AAlx, {{ site.time | date: "%Y" }}</p>
+        </footer>
+    </body>
+</html>
 </body>
 </html>
