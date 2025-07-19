@@ -3,23 +3,8 @@ layout: default # Этот шаблон использует default.html как
 ---
 
 <h2>{{ page.title }}</h2>
-{{ content }} {# Сюда будет вставляться Markdown из файла битмапа #}
+{{ content }}
 
 <a href="{{ page.download_link }}" class="download-button">Скачать .zip (для ручной установки)</a>
 
-<h3>Автоматическая установка:</h3>
-<p>Если у вас **джейлбрейкнутый iPhone с установленным OpenSSH**, вы можете установить битмап, скопировав и выполнив следующие команды в Terminal (через SSH):</p>
-<div class="script-box">
-<pre>cd /var/mobile/Documents/osu/beatmaps
-mkdir temp_download
-cd temp_download
-wget -O beatmap.zip "{{ page.download_link }}"
-mkdir "../{{ page.beatmap_folder_name }}"
-unzip -q beatmap.zip -d "../{{ page.beatmap_folder_name }}"
-cd ..
-rm -rf temp_download
-chmod -R 777 "/var/mobile/Documents/osu/beatmaps/{{ page.beatmap_folder_name }}"
-echo "Битмап '{{ page.beatmap_folder_name }}' успешно установлен."
-echo "Перезапустите osu! на iPhone, если он был запущен."</pre>
-</div>
 <p class="back-link"><a href="{{ '/' | relative_url }}">← Вернуться к списку битмапов</a></p>
