@@ -14,3 +14,6 @@ title: Список Битмапов
 {% for post in site.posts reversed %}
 - **[{{ post.title }}]({{ post.url | relative_url }})**
 {% endfor %}
+
+## Полезные ссылки:
+- [**Инструкция по установке битмапов**]({{ '/installation/' | relative_url }})
