@@ -15,6 +15,5 @@ title: Список Битмапов
 - **[{{ post.title }}]({{ post.url | relative_url }})**
 {% endfor %}
 
----
-
-*P.S. Этот сайт создан для фанатов Legacy iOS и osu!*
+## Полезные ссылки:
+- [**Инструкция по установке битмапов**]({{ '/installation/' | relative_url }})
