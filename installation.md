@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Инструкция по установке битмапов
+permalink: /installation/
 ---
 
 # Инструкция по установке битмапов для osu! (Legacy iOS)
