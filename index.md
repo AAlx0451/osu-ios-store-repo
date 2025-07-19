@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Список Битмапов
+title: Главная
 ---
 
 # Добро пожаловать в osu! Store
