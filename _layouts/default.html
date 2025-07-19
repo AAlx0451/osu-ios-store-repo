@@ -9,7 +9,7 @@
             font-family: 'Courier New', Courier, monospace;
             margin: 20px;
             background-color: #1a1a1a;
-            color: #00ff00; /* Зеленый текст */
+            color: #00ff00;
             line-height: 1.6;
             text-align: center;
         }
@@ -17,8 +17,8 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 25px;
-            border: 2px solid #00ff00; /* Зеленая рамка */
-            box-shadow: 5px 5px #00cc00; /* Сдвинутая зеленая тень */
+            border: 2px solid #00ff00;
+            box-shadow: 5px 5px #00cc00;
             background-color: #222;
             text-align: left;
         }
@@ -29,7 +29,7 @@
             margin-top: 0;
         }
         a {
-            color: #00ffff; /* Голубые ссылки */
+            color: #00ffff;
             text-decoration: underline;
         }
         p {
@@ -39,7 +39,7 @@
             display: inline-block;
             padding: 12px 25px;
             background-color: #00ff00;
-            color: #1a1a1a; /* Темный текст на зеленой кнопке */
+            color: #1a1a1a;
             text-decoration: none;
             border: 2px solid #00cc00;
             box-shadow: 3px 3px #009900;
@@ -54,20 +54,9 @@
             background-color: #00cc00;
             box-shadow: 2px 2px #009900;
         }
-        .script-box {
-            background-color: #0a0a0a; /* Темнее фон для кода */
-            border: 1px solid #00ff00;
-            padding: 15px;
-            margin-top: 30px;
-            overflow-x: auto; /* Для горизонтального скролла */
-            font-family: 'Monaco', 'Consolas', monospace;
-            font-size: 0.9em;
-            line-height: 1.4;
-            color: #fff; /* Белый текст для кода */
-        }
         .script-box pre {
             margin: 0;
-            white-space: pre-wrap; /* Перенос строк */
+            white-space: pre-wrap;
             word-break: break-all;
         }
         .back-link {
@@ -89,7 +78,7 @@
     </div>
     <div class="container">
         {{ content }}
-    </div> <!-- Конец div.container -->
+    </div>
 
         <footer class="site-footer">
             <p>© AAlx, {{ site.time | date: "%Y" }}</p>
