@@ -1,2 +1,6 @@
 title: osu! Store
 description: osu! iPhone compatible beatmaps repo
+
+plugins:
+  - jekyll-feed # Это может быть уже там или его не быть, не трогай, если не знаешь
+  - jekyll-sitemap # Вот этот плагин нам нужен
